@@ -27,7 +27,6 @@ public static class Extension
   public static int HasStringWithPattern(this string s,string pattern)
   {
     int index = -1;
-    // var s = "long string.....24X10     .....1X3";
     if(string.IsNullOrEmpty(s) || string.IsNullOrEmpty(pattern)){
         return index;
     }
